@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # @Date    : 2018-05-07 19:11:08
 # @Author  : HannochTao (hannochtao@163.com)
