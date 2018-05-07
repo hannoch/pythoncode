@@ -95,9 +95,9 @@ class GithubLogin():
     #设置邮箱提醒
     def send_mail(self,cont):
         
-        msg_from='790152894@qq.com'  #发送方邮箱
-        passwd='meeyzbaeowtbbdgf'    # 口令,QQ邮箱是输入授权码，在qq邮箱设置 里用验证过的手机发送短信获得，不含空格
-        msg_to='248132948@qq.com'  #收件人邮箱
+        msg_from='xxxxxx@qq.com'  #发送方邮箱
+        passwd='abcdefghjkl'    # 口令,QQ邮箱是输入授权码，在qq邮箱设置 里用验证过的手机发送短信获得，不含空格
+        msg_to='xxxxxxxxx@qq.com'  #收件人邮箱
                                     
         subject="github登录提醒"     #主题     
         content= cont
@@ -117,14 +117,7 @@ class GithubLogin():
 if __name__ == "__main__":
     github = GithubLogin()
     # 输入自己email账号和密码
-    github.post_account(email='hannochtao@163.com', password='back,space,790')
+    github.post_account(email='xxxxxxxxxx', password='xxxxxxxxx')
     # 发送邮箱提醒
     github.isLogin()
     
-
-    
-
-
-
-
-
