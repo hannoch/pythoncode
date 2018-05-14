@@ -1,8 +1,9 @@
 环境python3 
-# 下载ipproxy.py
-# 配置环境
->安装requests库
->安装bs4库
->安装lxml库
-
+1.下载ipproxy.py
+2.配置环境
+```
+安装requests库
+安装bs4库
+安装lxml库
+```
 运行了之后会在当前目录生成ippool.txt文件
