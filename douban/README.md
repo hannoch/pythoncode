@@ -1,36 +1,46 @@
-Ä¿Â¼½á¹¹
+ç›®å½•ç»“æ„
 douban
-©À©¤©¤ DBOperator.py  ²Ù×÷Êı¾İ
-©À©¤©¤ GetBookTag.py  ¸öÈËÓÃ»§ÊéµÄ±êÇ©
-©À©¤©¤ GetBookUrl.py  Ã¿±¾ÊéµÄµØÖ·
-©À©¤©¤ GetPeople.py   Ã¿±¾Êé¶ÔÓ¦ËùÓĞµÄÆÀÂÛÓÃ»§
-©À©¤©¤ __init__.py    ¿Õ°ü
-©¸©¤©¤ UserAgent.py   ä¯ÀÀÆ÷Í·
+â”œâ”€â”€ DBOperator.py  æ“ä½œæ•°æ®
+
+â”œâ”€â”€ GetBookTag.py  ä¸ªäººç”¨æˆ·ä¹¦çš„æ ‡ç­¾
+
+â”œâ”€â”€ GetBookUrl.py  æ¯æœ¬ä¹¦çš„åœ°å€
+
+â”œâ”€â”€ GetPeople.py   æ¯æœ¬ä¹¦å¯¹åº”æ‰€æœ‰çš„è¯„è®ºç”¨æˆ·
+
+â”œâ”€â”€ __init__.py    ç©ºåŒ…
+
+â””â”€â”€ UserAgent.py   æµè§ˆå™¨å¤´
+
 
 # 
 
-# ËùĞè»·¾³
+# æ‰€éœ€ç¯å¢ƒ
 `python3.x`
+
 `pip install requirements.txt`
 
-# ±¾³ÌĞòµÄÁ÷³Ì
-Á÷³Ì¾ÍÊÇ£¬Ëæ±ãÒ»±¾Êé---ÓÃ»§ÆÀÂÛ---ÓÃ»§Ïë¶ÁµÄÊé--µÃµ½Ïë¶ÁºÍÔÚ¶ÁµÄ±êÇ©
-½Å±¾Ö´ĞĞÏÈºóË³Ğò£º
-1¡¢Ê×ÏÈÒªµÃµ½Ã¿±¾Êé¶ÔÓ¦µÄµØÖ· `python3 GetBookUrl.py`  
-2¡¢ÔÙµÃµ½Ã¿±¾Êé¶ÔÓ¦ËùÓĞµÄÆÀÂÛÓÃ»§ `python3  GetPeople.py `
-3¡¢×îºóµÃµ½ÓÃ»§µÄ±êÇ© `python3  GetBookTag.py`
+# æœ¬ç¨‹åºçš„æµç¨‹
+æµç¨‹å°±æ˜¯ï¼Œéšä¾¿ä¸€æœ¬ä¹¦---ç”¨æˆ·è¯„è®º---ç”¨æˆ·æƒ³è¯»çš„ä¹¦--å¾—åˆ°æƒ³è¯»å’Œåœ¨è¯»çš„æ ‡ç­¾
+è„šæœ¬æ‰§è¡Œå…ˆåé¡ºåºï¼š
+1ã€é¦–å…ˆè¦å¾—åˆ°æ¯æœ¬ä¹¦å¯¹åº”çš„åœ°å€ `python3 GetBookUrl.py`  
 
-ps£ºÈı¸ö½Å±¾¿É¶ÀÁ¢ÔËĞĞ£¬ĞèÒªÌæ»»Ã¿¸ö½Å±¾ÀïµÄcookies 
+2ã€å†å¾—åˆ°æ¯æœ¬ä¹¦å¯¹åº”æ‰€æœ‰çš„è¯„è®ºç”¨æˆ· `python3  GetPeople.py `
 
-# Ë³ĞòÁ÷³Ì
-![»ñÈ¡cookies](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_1.png)
-![ÊéµÄ±êÇ©](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_2.png)
-![±êÇ©ÏÂµÄÊé](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_3.png)
-![ÊéµÄ¶ÌÆÀ](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_4.png)
-![ÓÃ»§Ö÷Ò³](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_5.png)
-![ÓÃ»§¶¨ÒåµÄ±êÇ©](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_6.png)
+3ã€æœ€åå¾—åˆ°ç”¨æˆ·çš„æ ‡ç­¾ `python3  GetBookTag.py`
 
-# Êı¾İ¿â´æ´¢ÈçÏÂ£º
-![ÊéĞÅÏ¢±í](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_8.png)
-![ÈËĞÅÏ¢±í](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_9.png)
-![×îºóµÄ±êÇ©](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_10.png)
+
+psï¼šä¸‰ä¸ªè„šæœ¬å¯ç‹¬ç«‹è¿è¡Œï¼Œéœ€è¦æ›¿æ¢æ¯ä¸ªè„šæœ¬é‡Œçš„cookies 
+
+# é¡ºåºæµç¨‹
+![è·å–cookies](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_1.png)
+![ä¹¦çš„æ ‡ç­¾](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_2.png)
+![æ ‡ç­¾ä¸‹çš„ä¹¦](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_3.png)
+![ä¹¦çš„çŸ­è¯„](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_4.png)
+![ç”¨æˆ·ä¸»é¡µ](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_5.png)
+![ç”¨æˆ·å®šä¹‰çš„æ ‡ç­¾](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_6.png)
+
+# æ•°æ®åº“å­˜å‚¨å¦‚ä¸‹ï¼š
+![ä¹¦ä¿¡æ¯è¡¨](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_8.png)
+![äººä¿¡æ¯è¡¨](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_9.png)
+![æœ€åçš„æ ‡ç­¾](https://github.com/hannoch/pythoncode/blob/master/douban/images/douban_10.png)
