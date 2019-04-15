@@ -1,5 +1,7 @@
 目录结构
+
 douban
+
 ├── DBOperator.py  操作数据
 
 ├── GetBookTag.py  个人用户书的标签
@@ -23,6 +25,7 @@ douban
 # 本程序的流程
 流程就是，随便一本书---用户评论---用户想读的书--得到想读和在读的标签
 脚本执行先后顺序：
+
 1、首先要得到每本书对应的地址 `python3 GetBookUrl.py`  
 
 2、再得到每本书对应所有的评论用户 `python3  GetPeople.py `
